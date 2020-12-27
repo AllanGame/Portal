@@ -7,7 +7,7 @@ function createWindow () {
       nodeIntegration: true
     }
   })
-  win.fullScreen()
+  win.maximize()
   win.show()
   win.loadFile('index.html')
 }
